@@ -343,29 +343,6 @@ function App() {
               impacto 🚀
             </motion.p>
 
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <motion.a
-                href="#contacto"
-                whileHover={shouldReduceMotion ? undefined : { scale: 1.05 }}
-                whileTap={shouldReduceMotion ? undefined : { scale: 0.95 }}
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow transition focus-visible:ring focus-visible:ring-blue-400"
-              >
-                Contáctanos
-              </motion.a>
-
-              <a
-                href={`https://wa.me/5213114857991?text=${encodeURIComponent(
-                  "¡Hola! Me interesa un proyecto con DUSA Solutions 🚀"
-                )}`}
-                target="_blank"
-                rel="noreferrer"
-                className="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl shadow transition focus-visible:ring focus-visible:ring-green-400"
-                aria-label="Escríbenos por WhatsApp"
-              >
-                WhatsApp 📲
-              </a>
-            </div>
-
             {/* Glows */}
             <div
               aria-hidden
